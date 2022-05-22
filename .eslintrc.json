@@ -19,11 +19,12 @@
     "func-names": "off",
     "no-plusplus": "off",
     "no-process-exit": "off",
+    "no-underscore-dangle": "off",
     "class-methods-use-this": "off",
     "prettier/prettier": [
       "error",
       {
-        "trailingComma": "es5",
+        "trailingComma": "all",
         "tabWidth": 2,
         "semi": true,
         "printWidth": 120,
